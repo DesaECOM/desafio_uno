@@ -1,0 +1,109 @@
+body {
+	margin: 0;
+  font-family: 'Lexend Deca', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+
+  background: rgb(244,244,244);
+}
+  
+.c-app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+@media screen and (max-width: 576px) {
+	.hide-on-header {
+		display: none;
+	}
+}
+
+.border-start-success {
+    border-left-color: #51cc8a !important;
+}
+
+.border-start-5 {
+    border-left-width: 5px !important;
+}
+
+.border-start-4 {
+    border-left-width: 5px !important;
+}
+
+.border-start-3 {
+    border-left-width: 5px !important;
+}
+
+.border-start-2 {
+    border-left-width: 5px !important;
+}
+
+.border-start-1 {
+    border-left-width: 5px !important;
+}
+
+.border-start-info {
+    border-left-color: #747af2 !important;
+}
+
+.border-start-warning {
+    border-left-color: #fc0 !important;
+}
+
+.border-start-danger {
+    border-left-color: #ef376e !important;
+}
+
+.card-header-tabs {
+    margin-right: -0.625rem;
+    margin-bottom: -0.75rem;
+    margin-left: -0.625rem;
+    border-bottom: 0;
+}
+
+@media (max-width: 1199.98px) {
+    .d-lg-down-none {
+        display: none !important;
+    }
+}
+
+.multi_bg {
+    height: 100vh;
+    min-height: 100vh;
+    background: rgb(38,143,172);
+    background:  linear-gradient(180deg, rgba(38,143,172,1) 14%, rgba(46,104,155,1) 54%, rgba(53,67,140,1) 85%);
+	background-repeat: no-repeat, no-repeat, repeat;
+	background-position: right bottom, top center, top center;
+	background-size:  100%, cover, 100%;
+    background-attachment: fixed;
+}
+
+
+.text-edupro-dark {
+    color: #199594 !important;
+}
+
+.border-edupro {
+    border-color: #0fb0ae !important;
+}
+
+.border-edupro-dark {
+    border-color: #199594 !important;
+}
+
+.c-wrapper:not(.c-wrapper-fluid) {
+    height: 100vh;
+}
+ 
+.c-wrapper {
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.25s, margin-left 0.25s, margin-right 0.25s, width 0.25s, flex 0.25s;
+}
+
+.rounded-top-5 {
+    border-top-left-radius: var(--bs-border-radius-2xl)!important;
+    border-top-right-radius: var(--bs-border-radius-2xl)!important;
+}
